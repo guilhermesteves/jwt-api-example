@@ -24,3 +24,9 @@ O app tem apenas 4 rotas para demonstrar como o **JWT** funciona:
 - `GET /public`: Rota pública com uma frase de exemplo
 - `GET /secret`: Rota apenas para usuários logados com uma outra de exemplo
 - `POST /login`: Rota para logar um usuário
+
+## Exemplos via Postman
+
+Faça o download do [Postman](https://www.postman.com/)
+
+Vá em **Import** e importe o arquivo [Exemplo_de_JWT.postman_collection.json](./Exemplo_de_JWT.postman_collection.json)
