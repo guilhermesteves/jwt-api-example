@@ -1,0 +1,41 @@
+{
+  "name": "jwt-api-example",
+  "version": "1.0.0",
+  "description": "Simple example of how JWT operates",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/guilhermesteves/jwt-api-example.git"
+  },
+  "keywords": [
+    "jwt",
+    "node",
+    "express"
+  ],
+  "author": "Guilherme Esteves <eu@guilhermesteves.dev> (guilhermesteves.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guilhermesteves/jwt-api-example/issues"
+  },
+  "homepage": "https://github.com/guilhermesteves/jwt-api-example#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.21.2"
+  }
+}
